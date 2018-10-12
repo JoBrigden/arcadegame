@@ -11,7 +11,7 @@ Enemy.prototype.update = function(dt) {
   this.x += this.speed * dt; //  movement multiplied by the dt parameter
 
   if(this.x > 510) {
-    this.x = -50; // a new bug appears on the left-hand-side of the screen
+    this.x = -50; // a new beetle appears on the left-hand-side of the screen
     this.speed = 100 + Math.floor(Math.random() * 150);
   }
 
@@ -99,8 +99,7 @@ Player.prototype.reset = function() {
 
 // add score when player reaches water
 Player.prototype.addPoints = function() {
-  this.score += 100;
-  ctx.clearRect(1, 580, 600, 20);
+  this.score += 10;
 };
 
 // variable for player
