@@ -11,7 +11,7 @@ This is a browser-based arcade game based on the classic arcade game 'Frogger'.
 
 ## Instructions
 
-[Clone](https://github.com/JoBrigden/arcadegame) this repository and open index.html file to view the game in your browser, or visit https://jobrigden.github.io/memorygame to access the game immediately.
+[Clone](https://github.com/JoBrigden/arcadegame) this repository and open index.html file to view the game in your browser, or visit https://jobrigden.github.io/arcadegame to access the game immediately.
 
 ## How to play
 
@@ -19,7 +19,7 @@ The player uses the 'left', 'right', 'up', or 'down' key to move the player char
 
 ## What to expect
 
-The beetles all start together and then its speeds start to vary. Score increases by 10 points every time you reach the water at the top of the board. The score is reset if the player collides with a beetle. 
+The beetles all start together and then its speeds start to vary. Score increases by 10 points every time you reach the water at the top of the board. The score is reset if the player collides with a beetle.
 
 ## Contributing
 

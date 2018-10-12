@@ -16,7 +16,7 @@ Enemy.prototype.update = function(dt) {
   }
 
   if (player.x < this.x + 80 && player.x + 80 > this.x && player.y < this.y + 60 && player.y + 60 > this.y) {
-    player.reset();
+    Player.reset();
   }
 };
 
